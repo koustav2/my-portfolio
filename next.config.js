@@ -2,11 +2,10 @@
 const nextConfig = {
   experimental: {
     appDir: true,
-  },
-  reactStrictMode: true,
+  }, reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
 }
 
-export default nextConfig
+module.exports = nextConfig
