@@ -39,7 +39,7 @@ function ContactMe({ }: Props) {
                     </div>
                     <input type="text" name="subject" placeholder='Subject' className="contactInput" required />
                     <input type='tel' name="phone" placeholder='Phone Number' className="contactInput" required />
-                    <textarea placeholder='Message' name="name" className="contactInput" required />
+                    <textarea placeholder='Message' name="message" className="contactInput" required />
                     <button type="submit" className='bg-[#f7ab0a] py-5 rounded-md text-black font-bold text-lg hover:bg-blue-900 '>
                         Submit
                     </button>
