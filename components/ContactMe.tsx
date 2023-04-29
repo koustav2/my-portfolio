@@ -15,7 +15,7 @@ function ContactMe({ }: Props) {
                 Contact
             </h3>
             <div className='flex flex-col mt-20'>
-                <h4 className='text-4xl font-semibold text-center'>
+                <h4 className='text-4xl font-semibold text-center mb-5 underline decoration-[#240b12]'>
                     Let's talk
                 </h4>
                 <div className="space-y-5 md:space-y-10">
