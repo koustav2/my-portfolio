@@ -14,7 +14,7 @@ function ContactMe({ }: Props) {
             <h3 className='absolute top-[7rem] md:top-20 lg:top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>
                 Contact Me
             </h3>
-            <div className='flex flex-col space-y-10'>
+            <div className='flex flex-col mt-20'>
                 <h4 className='text-4xl font-semibold text-center'>
                     Let's talk
                 </h4>
