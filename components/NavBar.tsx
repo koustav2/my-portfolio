@@ -23,9 +23,9 @@ function NavBar({ }: Props) {
       }}
       transition={{ duration: 1.5 }}
       className='flex flex-row items-center'>
-        <SocialIcon url="https://www.linkedin.com/in/koustav-maity-802072210/" fgColor='gray' bgColor='transparent' />
-        <SocialIcon url="https://github.com/koustav2" fgColor='gray' bgColor='transparent' />
-        <SocialIcon url="https://www.facebook.com/koustav.maity.796" fgColor='gray' bgColor='transparent' />
+        <SocialIcon url="https://www.linkedin.com/in/koustav-maity-802072210/" fgColor='gray' bgColor='transparent' target='__blank' />
+        <SocialIcon url="https://github.com/koustav2" fgColor='gray' bgColor='transparent' target='__blank'/>
+        <SocialIcon url="https://www.facebook.com/koustav.maity.796" fgColor='gray' bgColor='transparent' target='__blank'/>
 
       </motion.div>
       <motion.div
