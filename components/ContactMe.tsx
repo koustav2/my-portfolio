@@ -34,12 +34,12 @@ function ContactMe({ }: Props) {
                 </div>
                 <form method='POST' action="https://getform.io/f/d9db5188-8b53-4cc2-882a-ab136bfb3051" className='flex flex-col space-y-2 w-fit mx-auto my-5 '>
                     <div className='flex space-x-2'>
-                        <input type="text" placeholder='Name' className="contactInput" required />
-                        <input type="email" placeholder='Email' className="contactInput" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+                        <input type="text" name="name" placeholder='Name' className="contactInput" required />
+                        <input type="email" name="email" placeholder='Email' className="contactInput" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
                     </div>
-                    <input type="text" placeholder='Subject' className="contactInput" required />
-                    <input type='tel' placeholder='Phone Number' className="contactInput" required />
-                    <textarea placeholder='Message' className="contactInput" required />
+                    <input type="text" name="subject" placeholder='Subject' className="contactInput" required />
+                    <input type='tel' name="phone" placeholder='Phone Number' className="contactInput" required />
+                    <textarea placeholder='Message' name="name" className="contactInput" required />
                     <button type="submit" className='bg-[#f7ab0a] py-5 rounded-md text-black font-bold text-lg hover:bg-blue-900 '>
                         Submit
                     </button>
