@@ -41,12 +41,12 @@ export default function About({ }: Props) {
             <div className="space-y-10  md:px-10 mt-[5rem] md:mt-0 lg:mt-0 md:text-xs">
                 <h4 className="text-sm md:text-xl lg:text-4xl text-gray-400 font-bold">Here is a{" "}
                     <span className="underline decoration-[#000080]">little</span>{" "} background</h4>
-                <p className='text-gray-500 text-sm'>
+                <p className='text-gray-500 text-sm md:text-xl lg:text-2xl'>
                     I'm koustav. here's a little bit about me... .I am a passionate Front-End Developer, driven by a deep love for
                     crafting seamless user experiences and bringing designs to life.I have coding for 1.5
                     years of now.. I have honed my skills in transforming design concepts into interactive websites, ensuring they are responsive, intuitive, and visually appealing across various devices and platforms
                     .my future goal is to be a full stack web developer .I also have proficient knowledge in  <span className="text-lg font-bold">AWS</span>{" "}
-                    cloud.I am proficient in{" "} <span className=' text-gray-500'>React,Tailwind-css, Javascript, MySql
+                    cloud.I am proficient in{" "} <span className=' text-blue-800'>React,Tailwind-css, Javascript, MySql
                         MongoDb, Next-js and basic front-end </span>{" "} skills.
                 </p>
             </div>
