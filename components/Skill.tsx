@@ -48,7 +48,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/aws.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
@@ -65,7 +65,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/css.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
@@ -82,7 +82,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/html.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
@@ -99,7 +99,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/javascript.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
@@ -116,7 +116,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/react.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
@@ -133,7 +133,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/mysql.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
@@ -150,7 +150,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/tailwind.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
@@ -167,7 +167,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/nextjs-icon.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
@@ -184,7 +184,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/mongo.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
@@ -201,7 +201,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/typescript.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
