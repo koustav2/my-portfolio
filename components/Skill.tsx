@@ -11,7 +11,7 @@ type Props = {
 
 function Skill({ directionLeft }: Props) {
     return (
-        <div>
+        <>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
                     src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
@@ -233,7 +233,7 @@ function Skill({ directionLeft }: Props) {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
