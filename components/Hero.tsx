@@ -5,7 +5,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import BackgroundCircle from './BackgroundCircle';
 import Image from 'next/image'
 import myimg from '../public/myimg.jpg';
-import Link from 'next/link'
+// import a from 'next/link'
 
 
 
@@ -37,16 +37,16 @@ function Hero({ }: Props) {
                     <Cursor cursorColor="#F7AB0A" />
                 </h1>
 
-                <div className='pt-5'>
-                    <Link href="#about" scroll={false}>
+                <div className='pt-[4rem]'>
+                    <a href="#about" >
                         <button className="heroButton  hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40">About</button>
-                    </Link>
-                    <Link href="#skills">
+                    </a>
+                    <a href="#skills">
                         <button className="heroButton  hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40">Skills</button>
-                    </Link>
-                    <Link href="#projects">
+                    </a>
+                    <a href="#projects">
                         <button className="heroButton  hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40">Projects</button>
-                    </Link>
+                    </a>
                 </div>
 
             </div>
