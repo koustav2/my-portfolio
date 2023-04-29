@@ -218,7 +218,7 @@ function Skill({ directionLeft }: Props) {
             </div>
             <div className='group relative flex cursor-pointer'>
                 <motion.img
-                    src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/firebase.png"
+                    src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
