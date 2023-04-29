@@ -36,9 +36,9 @@ function Projects({ }: Props) {
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                         <p className='text-center md:text-left md:text-xl lg:text-xl'>
-                            Netflix 2.0 app that has a Log In and Log Out Authentication
+                            Netflix 2.0 app that has a Log In and Log Out Authenticationh
                             with Google. It has a beautiful Home Screen with all the movies
-                            looking just like Netflix.
+                            looking just like Netflix.Created with react ,tailwind-css ,firebase and googe-auth
                         </p>
                     </div>
                 </div>
