@@ -76,8 +76,28 @@ function Projects({ }: Props) {
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                         <p className='text-center md:text-left md:text-xl lg:text-xl'>
-                            Snake-game a is everyone;s childhood game .I just 
+                            Snake-game a is everyone;s childhood game .I just
                             replicate it using HTML, css and localstorage
+                        </p>
+                    </div>
+                </div>
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                    <motion.img
+                        initial={{
+                            y: -300,
+                            opacity: 0
+                        }}
+                        transition={{ duration: 1.2 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/weather-2.0.png?token=GHSAT0AAAAAAB5S4MYRBDKTC7EHA4UC3ORUZCM7NMA"
+                        className='w-[450px] h-[300px]'
+                        alt=""
+                    />
+                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
+                            weather 2.0 is a openweather-api based onprojects ,creted with React ,tailwind-wind.Its  it can fecth current weather
+                            using geolocation and can show weather of certain cities
                         </p>
                     </div>
                 </div>
@@ -101,26 +121,7 @@ function Projects({ }: Props) {
                         </p>
                     </div>
                 </div>
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-                    <motion.img
-                        initial={{
-                            y: -300,
-                            opacity: 0
-                        }}
-                        transition={{ duration: 1.2 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/weather-2.0.png?token=GHSAT0AAAAAAB5S4MYRBDKTC7EHA4UC3ORUZCM7NMA"
-                        className='w-[450px] h-[300px]'
-                        alt=""
-                    />
-                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
-                           weather 2.0 is a openweather-api based onprojects ,creted with React ,tailwind-wind.Its  it can fecth current weather 
-                           using geolocation and can show weather of certain cities
-                        </p>
-                    </div>
-                </div>
+
 
             </div>
             <div className="w-full absolute top-[30% ] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12" />
