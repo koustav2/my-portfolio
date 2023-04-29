@@ -57,9 +57,7 @@ function Projects({ }: Props) {
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                         <p className='text-center md:text-left'>
-                            Netflix 2.0 app that has a Log In and Log Out Authentication
-                            with Google. It has a beautiful Home Screen with all the movies
-                            looking just like Netflix. clearscriptions!
+                            Created a responsive  TODO app using react , tailwind-css . used localsttorage to save ,update and delte the existing todo
                         </p>
                     </div>
                 </div>
@@ -77,10 +75,9 @@ function Projects({ }: Props) {
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <p className='text-center md:text-left'>
-                            Netflix 2.0 app that has a Log In and Log Out Authentication
-                            with Google. It has a beautiful Home Screen with all the movies
-                            looking just like Netflix. 
+                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
+                            Snake-game a is everyone;s childhood game . i just 
+                            replicate it using HTML, css and localstorage
                         </p>
                     </div>
                 </div>
@@ -114,15 +111,14 @@ function Projects({ }: Props) {
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/todo.png"
+                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/weather-2.0.png?token=GHSAT0AAAAAAB5S4MYRBDKTC7EHA4UC3ORUZCM7NMA"
                         className='w-[450px] h-[300px]'
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                         <p className='text-center md:text-left'>
-                            Netflix 2.0 app that has a Log In and Log Out Authentication
-                            with Google. It has a beautiful Home Screen with all the movies
-                            looking just like Netflix. 
+                           weather 2.0 is a openweather-api based onprojects ,creted with React ,tailwind-wind.Its  it can fecth current weather 
+                           using geolocation and can show weather of certain cities
                         </p>
                     </div>
                 </div>
