@@ -7,6 +7,6 @@
         @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all;
     }
     .contactInput{
-        @apply px-6 py-2 border-gray-500 text-sm tracking-widest text-gray-500 transition-all focus:outline-none;
+        @apply px-6 py-2 border-2 border-blue-900 focus:border-none text-sm tracking-widest text-gray-500 transition-all focus:outline-none bg-transparent appearance-none focus:outline-purple-900;
     }
 }
