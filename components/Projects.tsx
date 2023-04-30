@@ -90,7 +90,7 @@ function Projects({ }: Props) {
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/weather-2.0.png?token=GHSAT0AAAAAAB5S4MYRBDKTC7EHA4UC3ORUZCM7NMA"
+                        src="https://raw.githubusercontent.com/koustav2/pics/main/weather-2.0.png"
                         className='w-[450px] h-[300px]'
                         alt=""
                     />
@@ -110,7 +110,7 @@ function Projects({ }: Props) {
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/weather-3.0.png?token=GHSAT0AAAAAAB5S4MYQ2QL27AY7OX5MGVAYZCM72AQ"
+                        src="https://raw.githubusercontent.com/koustav2/pics/main/weather-3.0.png"
                         className='w-[450px] h-[300px]'
                         alt=""
                     />
