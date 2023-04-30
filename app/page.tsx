@@ -35,8 +35,8 @@ export default function Home() {
         <ContactMe/>
       </section>
 
-      <footer className='sticky bottom-5 w-full cursor-pointer italic uppercase text-[#f7ab0a]'>
-        <a href="https://www.linkedin.com/in/koustav-maity-802072210/" target='_blank'>
+      <footer className='sticky bottom-5 w-full text-center cursor-pointer italic  text-[#f7ab0a]'>
+        Created By <a href="https://www.linkedin.com/in/koustav-maity-802072210/" target='_blank' className='uppercase link link-underline link-underline-black'>
           Koustav
         </a>
       </footer>

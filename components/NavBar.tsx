@@ -42,7 +42,7 @@ function NavBar({ }: Props) {
       transition={{ duration: 1.5 }}
        className='flex flex-row items-center text-gray-400'>
         <a href="mailto:maitykoustav2911@gmail.com" className='text-gray-400 mt-4'>
-          <h1 className='uppercase text-sm'>Get In Touch</h1>
+          <h1 className='uppercase text-sm link link-underline link-underline-black hover:text-pink-500'>Get In Touch</h1>
         </a>
       </motion.div>
     </header>
