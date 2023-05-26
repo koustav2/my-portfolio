@@ -5,6 +5,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
+import amazon from '../public/img/amazon-1.png'
 
 type Props = {}
 
@@ -57,7 +58,7 @@ function Projects({ }: Props) {
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                         <p className='text-center md:text-left md:text-xl lg:text-xl'>
-                            Created a responsive  TODO app using react , tailwind-css . used localsttorage to save ,update and delte the existing todo
+                            Created a responsive  TODO app using react , tailwind-css . used local-storage to save ,update and delete the existing todo
                         </p>
                     </div>
                 </div>
@@ -118,6 +119,27 @@ function Projects({ }: Props) {
                         <p className='text-center md:text-left md:text-xl lg:text-xl'>
                             weather 3.0 is a updated version of the weather 2.0 but different approach.It was created on NEXT-JS with the use of react,
                             tailwindcss and powered by Tremor 2.0, StepZen and more.It show weather data of every country and cities in the world
+                        </p>
+                    </div>
+                </div>
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                    <motion.img
+                        initial={{
+                            y: -300,
+                            opacity: 0
+                        }}
+                        transition={{ duration: 1.2 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        src="https://raw.githubusercontent.com/koustav2/pics/main/weather-3.0.png"
+                        className='w-[450px] h-[300px]'
+                        alt=""
+                    />
+                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
+                            Amazon 3.0 is a amazon clone .It was created on NEXT-JS with the use of react,
+                            tailwindcss,redux and stripe api and more....It intregrated with stripe Api and stripe for doing payment after you select the items you want to buy
+                            It is fully functinonal app which is also intregratyed with next auth and firebase for authentication.
                         </p>
                     </div>
                 </div>
