@@ -133,7 +133,7 @@ function Projects({ }: Props) {
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        src=""
+                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/Screenshot%202023-05-26%20113617.png?token=GHSAT0AAAAAAB5S4MYQNM3OBWBUXU672UD6ZDQOFDQ"
                         className='w-[450px] h-[300px]'
                         alt=""
                     />
