@@ -42,6 +42,20 @@ function Projects({ }: Props) {
                             looking just like Netflix.Created with react ,tailwind-css ,firebase and googe-auth
                         </p>
                     </div>
+                    <div className='flex gap-5'>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="#" target='__blank'>Demo</a>
+                        </button>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="#" target='__blank'>Code</a>
+                        </button>
+                    </div>
                 </div>
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <motion.img
@@ -60,6 +74,20 @@ function Projects({ }: Props) {
                         <p className='text-center md:text-left md:text-xl lg:text-xl'>
                             Created a responsive  TODO app using react , tailwind-css . used local-storage to save ,update and delete the existing todo
                         </p>
+                    </div>
+                    <div className='flex gap-5'>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://to-do-ten-rosy.vercel.app/" target='__blank'>Demo</a>
+                        </button>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://github.com/koustav2/ToDo" target='__blank'>Code</a>
+                        </button>
                     </div>
                 </div>
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
@@ -81,6 +109,20 @@ function Projects({ }: Props) {
                             replicate it using HTML, css and localstorage
                         </p>
                     </div>
+                    <div className='flex gap-5'>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://snake-game-rosy-tau.vercel.app/" target='__blank'>Demo</a>
+                        </button>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://github.com/koustav2/SnakeGame" target='__blank'>Code</a>
+                        </button>
+                    </div>
                 </div>
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <motion.img
@@ -101,6 +143,20 @@ function Projects({ }: Props) {
                             using geolocation and can show weather of certain cities
                         </p>
                     </div>
+                    <div className='flex gap-5'>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://weather-2-0.vercel.app/" target='__blank'>Demo</a>
+                        </button>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://github.com/koustav2/weather-2.0" target='__blank'>Code</a>
+                        </button>
+                    </div>
                 </div>
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <motion.img
@@ -120,6 +176,20 @@ function Projects({ }: Props) {
                             weather 3.0 is a updated version of the weather 2.0 but different approach.It was created on NEXT-JS with the use of react,
                             tailwindcss and powered by Tremor 2.0, StepZen and more.It show weather data of every country and cities in the world
                         </p>
+                    </div>
+                    <div className='flex gap-5'>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://stepzen-weather-app-tau.vercel.app/" target='__blank'>Demo</a>
+                        </button>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://github.com/koustav2/weather-3.0" target='__blank'>Code</a>
+                        </button>
                     </div>
                 </div>
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
@@ -147,13 +217,13 @@ function Projects({ }: Props) {
                             type="button"
                             className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
                             data-te-ripple-init>
-                            <a href="https://github.com/koustav2/Amzon-2.0" target='__blank'>Demo</a>
+                            <a href="https://amzon-2-0-git-main-maitykoustav865-gmailcom-s-team.vercel.app/" target='__blank'>Demo</a>
                         </button>
                         <button
                             type="button"
                             className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
                             data-te-ripple-init>
-                            <a href="https://amzon-2-0-git-main-maitykoustav865-gmailcom-s-team.vercel.app/" target='__blank'>Code</a>
+                            <a href="https://github.com/koustav2/Amzon-2.0" target='__blank'>Code</a>
                         </button>
                     </div>
                 </div>
