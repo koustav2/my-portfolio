@@ -72,7 +72,7 @@ function Projects({ }: Props) {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/snake-game.png"
-                        className='w-[450px] h-[400px]'
+                        className='w-[450px] h-[350px]'
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -131,7 +131,7 @@ function Projects({ }: Props) {
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        src="https://raw.githubusercontent.com/koustav2/pics/main/weather-3.0.png"
+                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/amazon-1.png?token=GHSAT0AAAAAAB5S4MYR2P3PUTL5L7M36OY2ZDQKHMA"
                         className='w-[450px] h-[300px]'
                         alt=""
                     />
