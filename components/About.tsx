@@ -45,8 +45,8 @@ export default function About({ }: Props) {
                     I'm koustav. here's a little bit about me... .I am a passionate Front-End Developer, driven by a deep love for
                     crafting seamless user experiences and bringing designs to life.I have coding for 1.5
                     years of now.. I have honed my skills in transforming design concepts into interactive websites, ensuring they are responsive, intuitive, and visually appealing across various devices and platforms
-                    .my future goal is to be a full stack web developer ..I am good at{" "} <span className=' text-blue-800'>React,Tailwind-css, Javascript, MySql
-                        MongoDb, Next-js and basic front-end </span>{" "} skills.I also have proficient knowledge in  <span className="text-lg font-bold">AWS</span>{" "}
+                    .my future goal is to be a full stack web developer ..I am good at{" "} <span className=' text-blue-800'>React,Tailwind-css, Javascript
+                        MongoDb, Next-js,Redux and basic front-end </span>{" "} skills.I also have proficient knowledge in  <span className="text-lg font-bold">AWS</span>{" "}
                     cloud
                 </p>
             </div>
