@@ -216,7 +216,7 @@ function Skill({ directionLeft }: Props) {
                     </div>
                 </div>
             </div>
-            <div className='group relative flex cursor-pointer'>
+            {/* <div className='group relative flex cursor-pointer'>
                 <motion.img
                     src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"
                     initial={{
@@ -232,7 +232,7 @@ function Skill({ directionLeft }: Props) {
                         <p className='text-xl font-bold text-black opacity-100'>60%</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className='group relative flex cursor-pointer'>
                 <motion.img
                     src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg"
