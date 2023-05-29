@@ -37,9 +37,9 @@ function Projects({ }: Props) {
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                         <p className='text-center md:text-left md:text-xl lg:text-xl'>
-                            Netflix 2.0 app that has a Log In and Log Out Authenticationh
+                            Netflix 2.1 app that has a Log In and Log Out Authenticationh
                             with Google. It has a beautiful Home Screen with all the movies
-                            looking just like Netflix.Created with react ,tailwind-css ,firebase and googe-auth
+                            looking just like Netflix.Created with react ,tailwind-css ,firebase and firebase-auth.
                         </p>
                     </div>
                     <div className='flex gap-5'>
@@ -47,13 +47,13 @@ function Projects({ }: Props) {
                             type="button"
                             className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
                             data-te-ripple-init>
-                            <a href="#" target='__blank'>Demo</a>
+                            <a href="https://netflix-2-1.vercel.app/" target='__blank'>Demo</a>
                         </button>
                         <button
                             type="button"
                             className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
                             data-te-ripple-init>
-                            <a href="#" target='__blank'>Code</a>
+                            <a href="https://github.com/koustav2/Netflix-2.1" target='__blank'>Code</a>
                         </button>
                     </div>
                 </div>
