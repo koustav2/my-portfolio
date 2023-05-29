@@ -36,9 +36,10 @@ function Projects({ }: Props) {
                         viewport={{ once: true }}
                         src="https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png"
                         alt=""
+                        className=" w-96 h-72 "
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
+                        <p className='text-center md:text-left  md:text-sm lg:text-xl'>
                             Netflix 2.1 app that has a Log In and Log Out Authenticationh
                             with Google. It has a beautiful Home Screen with all the movies
                             looking just like Netflix.Created with react ,tailwind-css ,firebase and firebase-auth.
@@ -73,7 +74,7 @@ function Projects({ }: Props) {
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
+                        <p className='text-center md:text-left  md:text-sm lg:text-xl'>
                             Created a responsive  TODO app using react , tailwind-css . used local-storage to save ,update and delete the existing todo
                         </p>
                     </div>
@@ -106,7 +107,7 @@ function Projects({ }: Props) {
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
+                        <p className='text-center md:text-left  md:text-sm lg:text-xl'>
                             Snake-game a is everyone;s childhood game .I just
                             replicate it using HTML, css and localstorage
                         </p>
@@ -135,12 +136,12 @@ function Projects({ }: Props) {
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/Screenshot%202023-05-26%20113617.png?token=GHSAT0AAAAAAB5S4MYQM67UJMFE4X2H4TZMZDUK44Q"
+                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/logo.png"
                         className='w-[450px] h-[300px]'
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
+                        <p className='text-center md:text-left  md:text-sm lg:text-xl'>
                             Random quote generator created with css and react js.
                         </p>
                     </div>
@@ -173,7 +174,7 @@ function Projects({ }: Props) {
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
+                        <p className='text-center md:text-left  md:text-sm lg:text-xl'>
                             weather 2.0 is a openweather-api based onprojects ,creted with React ,tailwind-wind.Its  it can fecth current weather
                             using geolocation and can show weather of certain cities
                         </p>
@@ -207,7 +208,7 @@ function Projects({ }: Props) {
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
+                        <p className='text-center md:text-left  md:text-sm lg:text-xl'>
                             weather 3.0 is a updated version of the weather 2.0 but different approach.It was created on NEXT-JS with the use of react,
                             tailwindcss and powered by Tremor 2.0, StepZen and more.It show weather data of every country and cities in the world
                         </p>
@@ -236,12 +237,12 @@ function Projects({ }: Props) {
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/amazon-1.png?token=GHSAT0AAAAAAB5S4MYRMRF5U3JDKOYSOWZ4ZDQN7XA"
+                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/amazon-1.png"
                         className='w-[450px] h-[300px]'
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-                        <p className='text-center md:text-left md:text-xl lg:text-xl'>
+                        <p className='text-center md:text-sm md:text-left  lg:text-xl'>
                             Amazon 3.0 is a amazon clone .It was created on NEXT-JS with the use of react,
                             tailwindcss,redux and stripe api and more....It intregrated with stripe Api and stripe for doing payment after you select the items you want to buy
                             It is fully functinonal app which is also intregratyed with next auth and firebase for authentication.
