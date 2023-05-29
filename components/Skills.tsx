@@ -18,8 +18,8 @@ function Skills({ }: Props) {
       <h3 className='absolute top-[7rem] md:top-20 lg:top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>
         Skills
       </h3>
-      <h3 className='absolute top-36 uppercaes tracking-[3px] text-gray-400'>Hover over for current proficiency status</h3>
-      <div className='grid grid-cols-4 gap-5 mt-[260px]'>
+      <h3 className='absolute top-36 uppercaes text-xs md:text-lg tracking-[3px] text-gray-400'>Hover over for current proficiency status</h3>
+      <div className='grid grid-cols-4 gap-5 mt-24'>
         <Skill />
 
       </div>
