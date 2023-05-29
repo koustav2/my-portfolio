@@ -70,7 +70,7 @@ function Projects({ }: Props) {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/todo.png"
-                        className='w-[450px] h-[300px]'
+                        className='w-[450px] h-[250px]'
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -103,7 +103,7 @@ function Projects({ }: Props) {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/snake-game.png"
-                        className='w-[450px] h-[350px]'
+                        className='w-[450px] h-[200px] sm:h-[250px] md:h-[300px]'
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -137,7 +137,7 @@ function Projects({ }: Props) {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/logo.png"
-                        className='w-[450px] h-[300px]'
+                        className='w-[450px] h-[200px] sm:h-[250px] md:h-[300px]'
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -170,7 +170,7 @@ function Projects({ }: Props) {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         src="https://raw.githubusercontent.com/koustav2/pics/main/weather-2.0.png"
-                        className='w-[450px] h-[300px]'
+                        className='w-[450px] h-[200px] md:h-[300px]'
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -204,7 +204,7 @@ function Projects({ }: Props) {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         src="https://raw.githubusercontent.com/koustav2/pics/main/weather-3.0.png"
-                        className='w-[450px] h-[300px]'
+                        className='w-[450px] h-[150px] sm:h-[200px] md:h-[250px] lg:h-[300px]'
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -238,7 +238,7 @@ function Projects({ }: Props) {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/amazon-1.png"
-                        className='w-[450px] h-[300px]'
+                        className='w-[450px] h-[150px] sm:h-[200px] md:h-[250px]'
                         alt=""
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
