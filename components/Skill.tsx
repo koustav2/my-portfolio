@@ -59,7 +59,7 @@ function Skill({ directionLeft }: Props) {
                 />
                 <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-20 w-20  rounded-full z-0'>
                     <div className="flex items-center justify-center h-full">
-                        <p className='text-xl font-bold text-black opacity-100'>80%</p>
+                        <p className='text-xl font-bold text-black opacity-100'>50%</p>
                     </div>
                 </div>
             </div>
