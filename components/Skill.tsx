@@ -222,7 +222,7 @@ function Skill({ directionLeft }: Props) {
                     initial={{
                         x: directionLeft ? -200 : 200,
                         opacity: 0
-                    }}
+                    }}g
                     transition={{ duration: 1 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     className='rounded-full border border-gray-500 object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'
