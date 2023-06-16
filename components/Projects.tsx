@@ -184,7 +184,7 @@ function Projects({ }: Props) {
                             type="button"
                             className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
                             data-te-ripple-init>
-                            <a href="https://stepzen-weather-app-tau.vercel.app/" target='__blank'>Demo</a>
+                            <a href="https://weather-app-tau-01.vercel.app/" target='__blank'>Demo</a>
                         </button>
                         <button
                             type="button"
