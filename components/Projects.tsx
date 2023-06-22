@@ -69,6 +69,40 @@ function Projects({ }: Props) {
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
+                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/img/reddit.png"
+                        className='w-[450px] h-[200px] sm:h-[250px] md:h-[300px]'
+                        alt=""
+                    />
+                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                        <p className='text-center md:text-left  md:text-sm lg:text-xl'>
+                            Reddit 2.0 is reddit clone,created with Next-Js,typescript,React,Tailwind-Css.Used Redis for storing user data, comments, post and votes.used Next-Auth for authentication,
+                            and  react-toastify for notifications.
+                        </p>
+                    </div>
+                    <div className='flex gap-5'>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://reddit-2-0-cyan.vercel.app/" target='__blank'>Demo</a>
+                        </button>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://github.com/koustav2/Reddit-2.0" target='__blank'>Code</a>
+                        </button>
+                    </div>
+                </div>
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                    <motion.img
+                        initial={{
+                            y: -300,
+                            opacity: 0
+                        }}
+                        transition={{ duration: 1.2 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
                         src="https://raw.githubusercontent.com/koustav2/portfolio/main/src/assets/todo.png"
                         className='w-[450px] h-[250px]'
                         alt=""
