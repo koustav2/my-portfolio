@@ -60,6 +60,42 @@ function Projects({ }: Props) {
                         </button>
                     </div>
                 </div>
+                {/* Created a chat web app using React-Js,Next-Js, Tailwind-css and Firebase Used Firebase for authentication, storing chats
+It has login-logout, delete chat, search user, block user functionality */}
+                                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                    <motion.img
+                        initial={{
+                            y: -300,
+                            opacity: 0
+                        }}
+                        transition={{ duration: 1.2 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        src="https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png"
+                        alt=""
+                        className=" w-96 h-62 "
+                    />
+                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                        <p className='text-center md:text-left  md:text-sm lg:text-xl'>
+                        Created a chat web app using React-Js,Next-Js, Tailwind-css and Firebase. Used Firebase for authentication, storing chats.
+                        It has login-logout, delete chat, search user, block user functionality and it has typing animation like messenger
+                        </p>
+                    </div>
+                    <div className='flex gap-5'>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://real-chat-app-eta.vercel.app/" target='__blank'>Demo</a>
+                        </button>
+                        <button
+                            type="button"
+                            className="bg-yellow-600 hover:bg-yellow-700 py-3 px-8 rounded-lg text-yellow-100 border-b-4 border-yellow-700 hover:border-yellow-800 transition duration-300"
+                            data-te-ripple-init>
+                            <a href="https://github.com/koustav2/RealChat-App" target='__blank'>Code</a>
+                        </button>
+                    </div>
+                </div>
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <motion.img
                         initial={{
