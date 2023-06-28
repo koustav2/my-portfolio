@@ -44,7 +44,7 @@ function NavBar({ }: Props) {
         className='flex flex-row items-center gap-2 text-gray-400'>
         <div className='text-gray-400 mt-4'>
           <Link 
-          onClick={() => window.open('/Resume.pdf', 'Resume', 'width=800,height=600')} href={''}>
+          onClick={() => window.open('/Resume1.pdf', 'Resume', 'width=800,height=600')} href={''}>
             <h1 className='uppercase text-sm link link-underline link-underline-black hover:text-pink-500'>Resume</h1>
           </Link>
         </div>
