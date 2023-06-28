@@ -71,9 +71,9 @@ It has login-logout, delete chat, search user, block user functionality */}
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        src="https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png"
+                        src="https://raw.githubusercontent.com/koustav2/my-portfolio/main/public/realchat.png"
                         alt=""
-                        className=" w-96 h-62 "
+                        className=" h-[200px] sm:h-[250px] md:h-[300px] "
                     />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                         <p className='text-center md:text-left  md:text-sm lg:text-xl'>
