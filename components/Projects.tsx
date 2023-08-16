@@ -62,7 +62,7 @@ function Projects({ }: Props) {
                 </div>
                 {/* Created a chat web app using React-Js,Next-Js, Tailwind-css and Firebase Used Firebase for authentication, storing chats
 It has login-logout, delete chat, search user, block user functionality */}
-                                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                                {/* <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <motion.img
                         initial={{
                             y: -300,
@@ -95,7 +95,7 @@ It has login-logout, delete chat, search user, block user functionality */}
                             <a href="https://github.com/koustav2/RealChat-App" target='__blank'>Code</a>
                         </button>
                     </div>
-                </div>
+                </div> */}
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <motion.img
                         initial={{
